@@ -184,14 +184,14 @@
             </div>
           </div>
 
-          <form action='/' class='form' id='leadForm' method='POST' name='lead'>
-            <input type="hidden" name="form-name" value="lead" />
-            <p hidden>
-              <label>
-                Don’t fill this out:
-                <input name="bot-field" />
-              </label>
-            </p>
+          <form action="/" class="form" id="leadForm" method="POST" name="lead" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="lead" />
+  <p hidden>
+    <label>
+      Don’t fill this out:
+      <input name="bot-field" />
+    </label>
+  </p>
 
             <div class="field">
               <label for="name">Name</label>
