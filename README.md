@@ -2,7 +2,7 @@
 
 Modern rebuild of the RR Maintenance landing site using Next.js App Router, TypeScript, and Tailwind CSS.
 
-## Run locally
+## Run locally .
 
 ```bash
 npm install
