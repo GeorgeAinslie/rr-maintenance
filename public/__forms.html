@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Netlify form detection stub</title>
+  </head>
+  <body>
+    <!--
+      Static stub so Netlify's build-time scanner registers the form.
+      Field names must exactly match those submitted by src/components/sections/Contact.tsx.
+    -->
+    <form
+      name="rr-maintenance-enquiry"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="rr-maintenance-enquiry" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="service" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
